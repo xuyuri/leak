@@ -1,0 +1,590 @@
+0	保留端口；不使用（若发送过程不准备接受回复消息，则可以作为源端口）
+1	TCPMUX（传输控制协议端口服务多路开关选择器）
+5	RJE（远程作业登录）
+7	Echo（回显）协议
+9	DISCARD（丢弃）协议
+9	网络唤醒
+11	SYSTAT协议
+13	DAYTIME协议
+15	NETSTAT协议
+17	QOTD（Quote of the Day，每日引用）协议
+18	消息发送协议
+19	CHARGEN（字符发生器）协议
+20	文件传输协议 - 默认数据端口
+21	文件传输协议 - 控制端口
+22	SSH（Secure Shell） - 远程登录协议，用于安全登录文件传输（SCP，SFTP）及端口重新定向
+23	Telnet终端仿真协议 - 未加密文本通信
+25	SMTP（简单邮件传输协议） - 用于邮件服务器间的电子邮件传递
+26	RSFTP - 一个简单的类似FTP的协议
+35	任意的私有打印机服务端口
+37	TIME时间协议
+39	Resource Location Protocol（资源定位协议）
+41	图形
+42	Host Name Server
+42	WINS（WINS主机名服务）
+43	WHOIS协议
+49	TACACS登录主机协议
+53	DNS（域名服务系统）
+56	远程访问协议
+57	MTP，邮件传输协议
+67	BOOTP（BootStrap协议）服务；同时用于动态主机设置协议
+68	BOOTP客户端；同时用于动态主机设定协议
+69	小型文件传输协议（小型文件传输协议）
+70	Gopher
+79	手指协议
+80	超文本传输协议（超文本传输协议）- 用于传输网页
+81	XB Browser - Tor
+82	XB Browser - 控制端口
+88	Kerberos - 认证代理
+101	主机名
+102	ISO-TSAP协议
+107	远程Telnet协议
+109	POP (Post Office Protocol)，“邮局协议”，第2版
+110	邮局协议，“邮局协议”，第3版 - 用于接收电子邮件
+111	Sun远程过程调用协议
+113	Ident - 旧的服务器身份识别系统，仍然被IRC服务器用来认证它的用户
+115	SFTP，简单文件传输协议
+117	UNIX间复制协议（Unix to Unix Copy Protocol，UUCP）的路径确定服务
+118	SQL服务
+119	网络新闻传输协议 - 用来收取新闻组的消息
+123	NTP（Network Time Protocol） - 用于时间同步
+135	分布式运算环境（Distributed Computing Environment，DCE）终端解决方案及定位服务
+135	微软终端映射器（End Point Mapper，EPMAP）
+137	NetBIOS NetBIOS 名称服务
+138	NetBIOS NetBIOS 数据报文服务
+139	NetBIOS NetBIOS 会话服务
+143	因特网信息访问协议（Internet信息访问协议 4） - 用于检索 电子邮件s
+152	BFTP, 后台文件传输程序
+153	简单网关监控协议（Simple Gateway Monitoring Protocol，SGMP）
+156	SQL服务
+158	DMSP, 分布式邮件服务协议
+161	简单网络管理协议 (简单网络管理协议)
+162	SNMP协议的TRAP操作
+170	打印服务
+179	边界网关协议 (边界网关协议)
+194	IRC（互联网中继聊天）
+201	AppleTalk 路由维护
+209	Quick Mail 传输协议
+213	IPX，互联网分组交换协议
+218	MPP，信息发布协议
+220	因特网信息访问协议，交互邮件访问协议第3版
+259	ESRO, Efficient Short Remote Operations
+264	BGMP，边界网关多播协议
+308	Novastor 在线备份
+311	Apple 服务器管理员工具、工作组管理
+318	TSP，时间戳协议
+323	IMMP, Internet消息映射协议
+383	HP OpenView HTTPs 代理程序
+366	SMTP, 简单邮件传送协议. ODMR,按需邮件传递
+369	Rpc2 端口映射
+371	ClearCase 负载平衡
+384	一个远程网络服务器系统
+387	AURP, AppleTalk 升级用路由协议
+389	轻型目录访问协议 LDAP
+401	不间断电源，不间断电源供应系统
+411	Direct Connect Hub 端口
+412	Direct Connect 客户端—客户端 端口
+427	服务定位协议 (位置服务协议)
+443	超文本传输安全协议 - 超文本传输协议 over TLS/SSL（加密传输）
+444	SNPP，简单网络分页协议
+445	Microsoft-DS (Active Directory，Windows 共享, 震荡波蠕虫，Agobot, Zobotworm)
+445	Microsoft-DS 服务器消息块 SMB文件共享
+464	Kerberos 更改/设定密码
+465	Cisco 专用协议
+465	传输层安全性协议加密的简单邮件传输协议
+475	tcpnethaspsrv（Hasp 服务, TCP/IP 版本）
+497	dantz 备份服务
+500	网络安全关系与密钥管理协议，IKE-Internet 密钥交换
+502	Modbus 协议
+512	exec, 远程进程执行
+512	comsat 和 biff 命令：用于电子邮件系统
+513	login，登录命令
+513	Who命令，查看当前登录计算机的用户
+514	远程外壳 protocol - 用于在远程计算机上执行非交互式命令，并查看返回结果
+514	Syslog 协议 - 用于系统登录
+515	Line Printer Daemon protocol - 用于 LPD 打印机服务器
+517	Talk
+518	NTalk
+520	efs
+520	Routing - 路由信息协议
+513	路由器
+524	NetWare核心协议（NetWare 核心协议）用于一系列功能，例如访问NetWare主服务器资源、同步时间等
+525	Timed，时间服务
+530	远程过程调用
+531	AOL 即时通信软件, IRC
+532	netnews
+533	netwall,用于紧急广播
+540	UUCP (Unix-to-Unix 复制协议)
+542	商业 (Commerce Applications)
+543	klogin, Kerberos登陆
+544	kshell, Kerberos 远程shell
+546	DHCPv6客户端
+547	DHCPv6服务器
+548	通过传输控制协议（TCP）的 Appletalk 文件编制协议（AFP(苹果归档协议))
+550	new-rwho, new-who
+554	即时流协议 即时流协定
+556	Brunhoff 的远程文件系统（RFS）
+560	rmonitor, Remote Monitor
+561	monitor
+563	网络新闻传输协议 通过安全套接字层的网络新闻传输协议（NNTPS）
+587	邮件消息提交（简单邮件传输协议，RFC 2476）
+591	FileMaker 6.0（及之后版本）网络共享（HTTP的替代，见80端口）
+593	HTTP RPC Ep Map（RPC over HTTP, often used by Distributed COM services and Microsoft Exchange Server）
+604	TUNNEL
+631	互联网打印协议
+636	LDAP over SSL（加密传输，也被称为LDAPS）
+639	MSDP, 组播源发现协议
+646	LDP, 标签分发协议
+647	DHCP故障转移协议
+648	RRP( Registry Registrar Protocol)，注册表注册协议
+652	DTCP(Dynamic Tunnel Configuration Protocol)，动态主机设置协议
+654	AODV(Ad hoc On-Demand Distance Vector)，无线自组网按需平面距离向量路由协议
+665	sun-dr, Remote Dynamic Reconfiguration
+666	毁灭战士，计算机平台上的一系列第一人称射击游戏。
+674	ACAP(Application Configuration Access Protocol)，应用配置访问协议
+691	MS Exchange Routing
+692	Hyperwave-ISP
+694	用于带有高可用性的聚类的心跳服务
+695	IEEE-MMS-SSL
+698	OLSR(Optimized Link State Routing)，优化链路状态路由协议
+699	Access Network
+700	EPP, 可扩展供应协议
+701	LMP,链路管理协议
+702	IRIS over BEEP
+706	SILC, Secure Internet Live Conferencing
+711	TDP, 标签分发协议
+712	TBRPF, Topology Broadcast based on Reverse-Path Forwarding
+720	SMQP, Simple Message Queue Protocol
+749, UDP	kerberos-adm, Kerberos administration
+750	Kerberos version IV
+782	Conserver serial-console management server
+829	证书管理协议（CMP）[2]
+860	ISCSI，Internet小型计算机系统接口
+873	Rsync ，文件同步协议
+901	Samba 网络管理工具(SWAT)
+902	VMware服务器控制台[3]
+904	VMware服务器替代（如果902端口已被占用）
+911	Network Console on Acid（NCA） - local tty redirection over OpenSSH
+981	Check Point Remote HTTPS management for firewall devices running embedded Checkpoint Firewall-1 software
+989	FTP Protocol (data) over TLS/SSL
+990	FTP Protocol (control) over TLS/SSL
+991	NAS (Netnews Admin System)
+992	基于TLS / SSL的Telnet协议
+993	基于 传输层安全性协议的因特网信息访问协议 (加密传输)
+995	基于 传输层安全性协议的邮局协议 (加密传输)
+1025	NFS-or-IIS
+1026	通常用于微软Distributed COM服务器
+1029	通常用于微软Distributed COM服务器
+1058	nim IBM AIX
+1059	nimreg
+1080	SOCKS代理
+1099	Java远程方法调用 Registry
+1109	Kerberos POP
+1140	AutoNOC
+1167	phone, conference calling
+1176	Perceptive Automation Indigo home control server
+1182	AcceleNet
+1194	OpenVPN
+1198	The cajo project Free dynamic transparent distributed computing in Java
+1200	Steam
+1214	Kazaa
+1223	TGP: "TrulyGlobal Protocol" aka "The Gur Protocol"
+1241	Nessus Security Scanner
+1248	NSClient/NSClient++/NC_Net (Nagios)
+1270	Microsoft Operations Manager 2005 agent (MOM 2005)
+1311	Dell Open Manage Https Port
+1313	Xbiim (Canvii server) Port
+1337	WASTE Encrypted File Sharing Program
+1352	IBM IBM Lotus Notes/Domino RPC
+1387	Computer Aided Design Software Inc LM (cadsi-lm )
+1414	IBM MQSeries
+1431	RGTP
+1433	Microsoft SQL 数据库系统
+1434	Microsoft SQL 活动监视器
+1494	思杰系统 ICA Client
+1512	WINS
+1521	nCube License Manager
+1521	Oracle数据库 default listener, in future releases official port 2483
+1524	ingreslock, ingres
+1526	Oracle数据库 common alternative for listener
+1533	IBM Lotus Sametime IM - Virtual Places Chat
+1547	Laplink
+1550	Gadu-Gadu (Direct Client-to-Client)
+1581	MIL STD 2045-47001 VMF
+1589	Cisco VQP (VLAN Query Protocol) / VMPS
+1627	iSketch
+1677	Novell GroupWise clients in client/server access mode
+1701	第二层隧道协议, Layer 2 Tunnelling protocol
+1716	美国陆军系列 MMORPG Default Game Port
+1723	Microsoft 点对点隧道协议 VPN
+1725	Valve Steam Client
+1755	MMS (协议) (MMS, ms-streaming)
+1761	cft-0
+1761	Novell Zenworks Remote Control utility
+1762	cft-1
+1763	cft-2
+1764	cft-3
+1765	cft-4
+1766	cft-5
+1767	cft-6
+1768	cft-7
+1812	radius, 远端用户拨入验证服务 authentication protocol
+1813	radacct, 远端用户拨入验证服务 accounting protocol
+1863	Windows Live Messenger, MSN
+1900	Microsoft 简单服务发现协议 Enables discovery of UPnP devices
+1935	实时消息协议 (RTMP) raw protocol
+1970	Danware Data NetOp Remote Control
+1971	Danware Data NetOp School
+1972	InterSystems Caché
+1975	Cisco TCO (Documentation)
+1976	Cisco TCO (Documentation)
+1977	Cisco TCO (Documentation)
+1984	Big Brother - network monitoring tool
+1985	热备份路由器协议
+1994	STUN-SDLC protocol for tunneling
+1998	Cisco X.25 service (XOT)
+2000	Cisco SCCP (Skinny)
+2002	Cisco Secure Access Control Server (ACS) for Windows
+2030	甲骨文公司 Services for Microsoft Transaction Server
+2031	mobrien-chat - Mike O'Brien <mike@mobrien.com> November 2004
+2049	nfs, NFS Server
+2049	shilp
+2053	knetd, Kerberos de-multiplexor
+2056	文明IV multiplayer
+2073	DataReel Database
+2074	Vertel VMF SA (i.e. App.. SpeakFreely)
+2082	Infowave Mobility Server
+2082	CPanel, default port
+2083	Secure Radius Service (radsec)
+2083	CPanel default SSL port
+2086	GNUnet
+2086	CPanel default port
+2087	CPanel default SSL port
+2095	CPanel default webmail port
+2096	CPanel default SSL webmail port
+2161	问号-APC Agent
+2181	EForward-document transport system
+2200	Tuxanci game server
+2219	NetIQ NCAP Protocol
+2220	NetIQ End2End
+2222	DirectAdmin's default port
+2222	Microsoft Office OS X antipiracy network monitor [1]
+2301	HP System Management Redirect to port 2381
+2302	武装突袭 multiplayer (default for game)
+2302	最后一战：战斗进化 multiplayer
+2303	武装突袭 multiplayer (default for server reporting) (default port for game +1)
+2305	武装突袭 multiplayer (default for VoN) (default port for game +3)
+2369	Default port for BMC软件公司 CONTROL-M/Server - Configuration Agent port number - though often changed during installation
+2370	Default port for BMC软件公司 CONTROL-M/Server - Port utilized to allow the CONTROL-M/Enterprise Manager to connect to the CONTROL-M/Server - though often changed during installation
+2381	HP Insight Manager default port for webserver
+2404	IEC 60870-5-104
+2427	Cisco MGCP
+2447	ovwdb - OpenView Network Node Manager (NNM) daemon
+2483	Oracle数据库 listening port for unsecure client connections to the listener, replaces port 1521
+2484	Oracle数据库 listening port for SSL client connections to the listener
+2546	Vytal Vault - Data Protection Services
+2593	RunUO - 网络创世纪 server
+2598	new ICA - when Session Reliability is enabled, TCP port 2598 replaces port 1494
+2612	QPasa from MQSoftware
+2710	XBT Bittorrent Tracker
+2710	XBT Bittorrent Tracker experimental UDP tracker extension
+2710	Knuddels.de
+2735	NetIQ Monitor Console
+2809	corbaloc:iiop URL, per the CORBA 3.0.3 specification.Also used by IBM IBM WebSphere Application Server Node Agent
+2809	corbaloc:iiop URL, per the CORBA 3.0.3 specification.
+2944	Megaco Text H.248
+2945	Megaco Binary (ASN.1) H.248
+2948	无线应用协议-push 彩信 (MMS)
+2949	无线应用协议-pushsecure 彩信 (MMS)
+2967	Symantec AntiVirus Corporate Edition
+3000	Miralix License server
+3000	Distributed Interactive Simulation (DIS), modifiable default port
+3000	Puma Web Server
+3001	Miralix Phone Monitor
+3002	Miralix CSTA
+3003	Miralix GreenBox API
+3004	Miralix InfoLink
+3006	Miralix SMS Client Connector
+3007	Miralix OM Server
+3025	netpd.org
+3050	gds_db (Interbase/Firebird)
+3074	Xbox Live
+3128	超文本传输协议 used by Web缓存s and the default port for the Squid (软件)
+3260	ISCSI target
+3268	msft-gc, Microsoft Global Catalog (轻型目录访问协议 service which contains data from Active Directory forests)
+3269	msft-gc-ssl, Microsoft Global Catalog over SSL (similar to port 3268, 轻型目录访问协议 over 传输层安全性协议 version)
+3300	TripleA game server
+3305	ODETTE-FTP
+3306	MySQL数据库系统
+3333	Network Caller ID server
+3386	GTP' 3GPP GSM/通用移动通讯系统 CDR logging protocol
+3389	远程桌面协议（RDP）
+3396	Novell NDPS Printer Agent
+3689	DAAP Digital Audio Access Protocol used by 苹果公司 ITunes
+3690	Subversion version control system
+3702	Web Services Dynamic Discovery (WS-Discovery), used by various components of Windows Vista
+3724	魔兽世界 Online gaming MMORPG
+3784	Ventrilo VoIP program used by Ventrilo
+3785	Ventrilo VoIP program used by Ventrilo
+3868	Diameter base protocol
+3872	Oracle Management Remote Agent
+3899	Remote Administrator
+3900	Unidata UDT OS udt_os
+3945	Emcads server service port, a Giritech product used by G/On
+4000	暗黑破坏神II game. NoMachine Network Server (nxd)
+4007	PrintBuzzer printer monitoring socket server
+4089	OpenCORE Remote Control Service
+4093	PxPlus Client server interface ProvideX
+4096	Bridge-Relay Element ASCOM
+4100	WatchGuard Authentication Applet - default port
+4111	Xgrid
+4111	SharePoint - 默认管理端口
+4226	Aleph One (computer game)
+4224	思科系统 CDP Cisco discovery Protocol
+4569	Inter-Asterisk eXchange
+4662	OrbitNet Message Service
+4662	通常用于EMule
+4664	Google桌面搜索
+4672	EMule - 常用端口
+4894	LysKOM Protocol A
+4899	Radmin 远程控制工具
+5000	commplex-main
+5000	UPnP - Windows network device interoperability
+5000	VTun - 虚拟专用网 软件
+5001	Iperf (Tool for measuring TCP and UDP bandwidth performance)
+5001	Slingbox及Slingplayer
+5003	FileMaker Filemaker Pro
+5004	实时传输协议实时传输协议
+5005	实时传输协议实时传输协议
+5031	AVM CAPI-over-TCP (综合业务数字网 over 以太网 tunneling)
+5050	Yahoo! Messenger
+5051	ita-agent Symantec Intruder Alert
+5060	会话发起协议 (SIP)
+5061	会话发起协议 (SIP) over 传输层安全性协议 (TLS)
+5093	SPSS License Administrator (SPSS)
+5104	IBM NetCOOL / IMPACT HTTP Service
+5106	A-Talk Common connection
+5107	A-Talk 远程服务器连接
+5110	ProRat Server
+5121	无冬之夜
+5176	ConsoleWorks default UI interface
+5190	ICQ and AIM (应用程序)
+5222	XMPP/Jabber - client connection
+5223	XMPP/Jabber - default port for SSL Client Connection
+5269	XMPP/Jabber - server connection
+5351	NAT Port Mapping Protocol - client-requested configuration for inbound connections through 网络地址转换
+5353	mDNS - multicastDNS
+5402	StarBurst AutoCast MFTP
+5405	NetSupport
+5421	Net Support 2
+5432	PostgreSQL database system
+5445	思科系统 Vidéo VT Advantage
+5495	Applix TM1 Admin server
+5498	Hotline tracker server connection
+5499	Hotline tracker server discovery
+5500	VNC remote desktop protocol - for incoming listening viewer, Hotline control connection
+5501	Hotline file transfer connection
+5517	Setiqueue Proxy server client for SETI@home project
+5555	Freeciv multiplay port for versions up to 2.0, 惠普 Data Protector, 会话通告协议
+5556	Freeciv multiplay port
+5631	赛门铁克 pcAnywhere
+5632	赛门铁克 pcAnywhere
+5666	NRPE (Nagios)
+5667	NSCA (Nagios)
+5800	VNC remote desktop protocol - for use over 超文本传输协议
+5814	惠普 Support Automation (HP OpenView Self-Healing Services)
+5900	VNC remote desktop protocol (used by ARD)
+6000	X窗口系统 - used between an X client and server over the network
+6001	X窗口系统 - used between an X client and server over the network
+6005	Default port for BMC软件公司 CONTROL-M/Server - Socket Port number used for communication between CONTROL-M processes - though often changed during installation
+6050	Brightstor Arcserve Backup
+6051	Brightstor Arcserve Backup
+6100	Vizrt System
+6110	softcm HP SoftBench CM
+6111	spc HP SoftBench Sub-Process Control
+6112	dtspcd - a network daemon that accepts requests from clients to execute commands and launch applications remotely
+6112	暴雪娱乐's 暴雪战网 gaming service, ArenaNet gaming service
+6129	Dameware Remote Control
+6257	WinMX （参见6699端口）
+6346	gnutella-svc (FrostWire, LimeWire, Bearshare, etc.)
+6347	gnutella-rtr
+6379	Redis - Redis
+6444	Oracle Grid Engine - Qmaster Service
+6445	Oracle Grid Engine - Execution Service
+6502	Danware Data NetOp Remote Control
+6522	Gobby (and other libobby-based software)
+6543	Jetnet - default port that the Paradigm Research & Development Jetnet protocol communicates on
+6566	SANE (Scanner Access Now Easy) - SANE network scanner daemon
+6600	Music Playing Daemon (MPD)
+6619	ODETTE-FTP over TLS/SSL
+6665	IRC
+6666	IRC
+6667	IRC
+6668	IRC
+6669	IRC
+6679	IRC SSL （安全互联网中继聊天） - 通常使用的端口
+6697	IRC SSL （安全互联网中继聊天） - 通常使用的端口
+6699	WinMX （参见6257端口）
+6881	BitTorrent 通常使用的端口
+6999	BitTorrent 通常使用的端口
+6891	Windows Live Messenger （文件传输）
+6900	Windows Live Messenger （文件传输）
+6901	Windows Live Messenger （语音）
+6969	acmsoda
+6969	BitTorrent tracker port
+7000	Default port for Azureus's built in 超文本传输安全协议 BitTorrent tracker
+7001	Default port for BEA WebLogic Server's 超文本传输协议 server - though often changed during installation
+7002	Default port for BEA WebLogic Server's 超文本传输安全协议 server - though often changed during installation
+7005	Default port for BMC软件公司 CONTROL-M/Server and CONTROL-M/Agent's - Agent to Server port though often changed during installation
+7006	Default port for BMC软件公司 CONTROL-M/Server and CONTROL-M/Agent's - Server to Agent port though often changed during installation
+7010	Default port for Cisco AON AMC (AON Management Console) [2]
+7025	Zimbra - lmtp [mailbox] - local mail delivery
+7047	Zimbra - conversion server
+7171	Tibia
+7306	Zimbra - mysql [mailbox]
+7307	Zimbra - mysql [logger] - logger
+7312	Sibelius License Server port
+7670	BrettSpielWelt BSW Boardgame Portal
+7777	Default port used by Windows backdoor program tini.exe
+8000	iRDMI - often mistakenly used instead of port 8080 (The Internet Assigned Numbers Authority (iana.org) officially lists this port for iRDMI protocol)
+8000	Common port used for internet radio streams such as those using SHOUTcast
+8002	Cisco Systems Unified Call Manager Intercluster Port
+8008	超文本传输协议 替代端口
+8008	IBM HTTP Server 默认管理端口
+8009	阿帕契族 JServ 协议 v13 (ajp13) 例如：Apache mod_jk Tomcat会使用。
+8010	XMPP/Jabber 文件传输
+8074	Gadu-Gadu
+8080	超文本传输协议 替代端口 （http_alt） - commonly used for 代理服务器 and caching server, or for running a web server as a non-Root user
+8080	Apache Tomcat
+8086	HELM Web Host Automation Windows Control Panel
+8086	Kaspersky AV Control Center TCP Port
+8087	Hosting Accelerator Control Panel
+8087	Kaspersky AV Control Center UDP Port
+8087	英迈 控制面板
+8090	Another 超文本传输协议 Alternate (http_alt_alt) - used as an alternative to port 8080
+8118	Privoxy web proxy - advertisements-filtering web proxy
+8123	Dynmap[4]默认网页端口号(Minecraft在线地图)
+8200	GoToMyPC
+8220	Bloomberg
+8222	VMware服务器管理用户界面(不安全网络界面)[5]。参见 8333端口
+8291	Winbox - Default port on a MikroTik RouterOS for a Windows application used to administer MikroTik RouterOS
+8294	Bloomberg
+8333	VMware 服务器管理用户界面（安全网络界面）[6]。参见8222端口
+8400	Commvault Unified Data Management
+8443	英迈 Control Panel
+8500	Adobe ColdFusion Macromedia/Adobe ColdFusion default Webserver port
+8501	毁灭公爵3D - Default Online Port
+8767	TeamSpeak - Default UDP Port
+8880	IBM WebSphere Application Server 简单对象访问协议 Connector port
+8881	Atlasz Informatics Research Ltd Secure Application Server
+8882	Atlasz Informatics Research Ltd Secure Application Server
+8888	NewsEDGE server
+8888	Sun Answerbook 网页服务器 server (deprecated by docs.sun.com)
+8888	GNUmp3d HTTP music streaming and web interface port
+8888	英雄大作战 Network Game Server
+9000	Buffalo LinkSystem web access
+9000	DBGp
+9000	UDPCast
+9000	PHP - php-fpm
+9001	cisco-xremote router configuration
+9001	Tor network default port
+9001	DBGp Proxy
+9002	Default ElasticSearch port
+9009	Pichat Server - Peer to peer chat software
+9043	IBM WebSphere Application Server Administration Console secure port
+9060	IBM WebSphere Application Server Administration Console
+9100	Jetdirect HP Print Services
+9110	SSMP Message protocol
+9101	Bacula Director
+9102	Bacula File Daemon
+9103	Bacula Storage Daemon
+9119	Mxit Instant Messenger
+9535	man, Remote Man Server
+9535	mngsuite - Management Suite Remote Control
+9800	基于Web的分布式编写和版本控制 Source Port
+9800	WebCT e-learning portal
+9999	Hydranode - edonkey2000 telnet control port
+9999	Urchin Web Analytics
+10000	Webmin - web based Linux admin tool
+10000	BackupExec
+10008	Octopus Multiplexer - CROMP protocol primary port, hoople.org
+10017	AIX,NeXT, HPUX - rexd daemon control port
+10024	Zimbra - smtp [mta] - to amavis from postfix
+10025	Ximbra - smtp [mta] - back to postfix from amavis
+10050	Zabbix-Agent
+10051	Zabbix-Server
+10113	NetIQ Endpoint
+10114	NetIQ Qcheck
+10115	NetIQ Endpoint
+10116	NetIQ VoIP Assessor
+10480	SWAT 4 Dedicated Server
+11211	Memcached
+11235	Savage:Battle for Newerth Server Hosting
+11294	Blood Quest Online Server
+11371	PGP HTTP Keyserver
+11576	IPStor Server management communication
+12035	Linden Lab viewer to sim
+12345	NetBus - remote administration tool (often 特洛伊木马 (计算机)). Also used by NetBuster. Little Fighter 2 (TCP).
+12975	LogMeIn Hamachi (VPN tunnel software;also port 32976)
+13000	Linden Lab viewer to sim
+13050	Linden Lab viewer to sim
+13720	赛门铁克 NetBackup - bprd (formerly VERITAS)
+13721	赛门铁克 NetBackup - bpdbm (formerly VERITAS)
+13724	赛门铁克 Network Utility - vnet (formerly VERITAS)
+13782	赛门铁克 NetBackup - bpcd (formerly VERITAS)
+13783	赛门铁克 VOPIED protocol (formerly VERITAS)
+14567	战地风云1942 and mods
+15000	Bounce (网络)
+15000	韦诺之战
+15567	战地风云：越南 and mods
+15345	XPilot
+16000	Bounce (网络)
+16080	MacOS Server performance cache for 超文本传输协议[7]
+16384	Iron Mountain Digital - online backup
+16567	战地2 and mods
+17788	PPS网络电视
+19132	Minecraft基岩版默认服务器端口号
+19226	熊猫 (消歧义) AdminSecure Communication Agent
+19638	Ensim Control Panel
+19813	4D database Client Server Communication
+20000	Usermin - 基于网络的用户工具
+20720	Symantec i3 Web GUI server
+22347	WibuKey - default port for WibuKey Network Server of WIBU-SYSTEMS AG
+22350	CodeMeter - default port for CodeMeter Server of WIBU-SYSTEMS AG
+24554	binkp - FidoNet mail transfers over TCP/IP协议族
+24800	Synergy：keyboard/mouse sharing software
+24842	StepMania：Online: 劲爆热舞 Simulator
+25565	Minecraft默认服务器端口号
+25999	Xfire
+26000	Id Software's Quake server,
+26000	CCP Games's 星战前夜 Online gaming MMORPG,
+27000	(through 27006) Id Software's 雷神世界 master server
+27010	Half-Life及其修改版，如反恐精英系列
+27015	Half-Life及其修改版，如反恐精英系列
+27374	Sub7's default port. Most 脚本小子s do not change the default port.
+27500	(through 27900) Id Software's 雷神世界
+27888	Kaillera server
+27900	(through 27901) 任天堂 任天堂Wi-Fi连接
+27901	(through 27910) Id Software's 雷神之锤II master server
+27960	(through 27969) 动视's Enemy Territory and Id Software's 雷神之锤III竞技场 and Quake III and some ioquake3 derived games
+28910	任天堂 任天堂Wi-Fi连接
+28960	决胜时刻2 Common Call of Duty 2 port - (PC Version)
+29900	(through 29901) 任天堂 任天堂Wi-Fi连接
+29920	任天堂 任天堂Wi-Fi连接
+30000	Pokemon Netbattle
+30564	Multiplicity：keyboard/mouse/clipboard sharing software
+31337	Back Orifice - remote administration tool（often 特洛伊木马 (计算机)）
+31337	xc0r3 - xc0r3 security antivir port
+31415	ThoughtSignal - Server Communication Service（often Informational）
+31456	TetriNET ports (in order: IRC, game, and spectating)
+31457	TetriNET ports (in order: IRC, game, and spectating)
+31458	TetriNET ports (in order: IRC, game, and spectating)
+32245	MMTSG-mutualed over MMT (encrypted transmission)
+33434	Traceroute
+37777	Digital Video Recorder hardware
+36963	Counter Strike 2D multiplayer port (2D clone of popular CounterStrike computer game)
+40000	SafetyNET p
+40523	data packets
+43594	RuneScape
+43595	RuneScape
+47808	BACnet Building Automation and Control Networks

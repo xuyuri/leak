@@ -1,0 +1,28 @@
+# 环境说明
+python环境
+python插件：xlrd、pyExcelerator
+
+# 漏洞详情列表
+代码：main.py 
+依赖文件：port.txt
+执行命令：
+1. 显示所有IP：
+python main.py xxx.html 
+
+2. 仅显示有漏洞的IP
+python main.py xxx.html 1
+
+
+# IP漏洞统计表
+代码：stat.py 
+执行命令：
+python stat.py xxx.html
+
+
+# 备注：
+1. 如何修改Excel显示字体？
+答：将代码中`commonFont = u'宋体'`改为你想要的字体
+
+2. 如何修改’漏洞‘那行的背景色？
+答：将代码中`pattern.pattern_back_colour = 22	# 这儿可以调节背景色` 后的数字改为相应的颜色值，
+具体的颜色值有哪些可以查看：https://www.jianshu.com/p/0e6cbdc03a27
